@@ -1,0 +1,5 @@
+(documentation du script PHP fusion HTML)
+
+php ./scriptHmtlnew.php
+
+Le php prend le “regions.conf” ainsi que les trois fichiers .dat. Il stock tout les données sous forme de tableaux dans des variables. Il remplit les différentes pages html grâce à ces variables puis met les pages dans le dossier “page_html”

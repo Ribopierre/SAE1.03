@@ -1,0 +1,42 @@
+<table>
+
+                        	<tr>
+
+                        		<th>Nom du produit</th>
+
+                        		<th>Ventes du trimestre</th>
+
+                        		<th>Chiffre d’affaires du trimestre</th>
+
+                        		<th>Ventes du même trimestre année précédente</th>
+
+                        		<th>CA du même trimestre année précédente</th>
+
+                        		<th>Evolution de CA en %age et en valeur absolue</th>
+
+                    	</tr>
+	<tr>
+		<td>Prod #1</td>
+		<td>123</td>
+		<td>56789</td>
+		<td>112</td>
+		<td>48092</td>
+		<td class="vert">15</td>
+	</tr>
+	<tr>
+		<td>Prod #2</td>
+		<td>56</td>
+		<td>12441</td>
+		<td>92</td>
+		<td>31283</td>
+		<td class="rouge">151</td>
+	</tr>
+	<tr>
+		<td>Prod #3</td>
+		<td>291</td>
+		<td>130192</td>
+		<td>318</td>
+		<td>151989</td>
+		<td class="rouge">17</td>
+	</tr>
+</table>

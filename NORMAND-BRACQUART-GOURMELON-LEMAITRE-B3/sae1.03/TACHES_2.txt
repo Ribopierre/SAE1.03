@@ -1,0 +1,50 @@
+Pour le rendu de la semaine 3 nous avons eu à faire plusieurs tâches:
+
+
+Création d'un script bash pour convertir les images d'avatar de svg en png en format 200x200
+-scriptAvatar.bash
+-LISEZMOI_2
+Répartion : 
+      Lucas : 10%
+	    Florian : 15%
+	    Nathan : 65%
+	    Pierre : 10%
+
+
+Création d'un script bash pour générer le QRCode
+-qrcode.bash
+-LISEZMOI_3
+Répartion : 
+      Lucas : 10%
+	    Florian : 20%
+	    Nathan : 10%
+	    Pierre : 60%
+
+Création d'un script php qui fusionne le fichier html avec les données qu'il contient
+-scritHtmlnew.php
+-LISEZMOI_4
+Répartion : 
+      Lucas : 10%
+	    Florian : 40%
+	    Nathan : 45%
+	    Pierre : 5%
+
+Création d'un script bash qui génère les pdf à partir des pages html.
+-pdf.bash
+-LISEZMOI_5
+Répartion : 
+      Lucas : 10%
+	    Florian : 50%
+	    Nathan : 35%
+	    Pierre : 5%
+
+Création du script final qui relie tout et permet l'automatisation
+-final.bash
+-LISEZMOI_FINAL
+Répartion : 
+      Lucas : 0%
+	    Florian :50%
+	    Nathan :50%
+	    Pierre :0%
+
+

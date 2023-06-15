@@ -1,0 +1,18 @@
+<table>
+
+                        	<tr>
+
+                        		<th>Nom du produit</th>
+
+                        		<th>Ventes du trimestre</th>
+
+                        		<th>Chiffre d’affaires du trimestre</th>
+
+                        		<th>Ventes du même trimestre année précédente</th>
+
+                        		<th>CA du même trimestre année précédente</th>
+
+                        		<th>Evolution de CA en %age et en valeur absolue</th>
+
+                    	</tr>
+</table>

@@ -1,0 +1,5 @@
+./pdf.bash
+
+Il récupère le code ISO et le nom de chaque région, il prend ensuite la page html lié à chaque région puis envoie dans Docker afin de récupérer le fichier transformé en pdf dans le dossier “pdf” sous la forme : “codeISO-nomRegion.pdf”
+
+

@@ -1,0 +1,107 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: #d9d9d9;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+
+}
+.page1 {
+   margin: 50px;
+}
+
+.page2 {
+   margin: 50px;
+}
+
+section {
+   background-color: white;
+   text-align: center;
+   height: 100vh;
+   width: 1024px ;
+   position: relative;
+   margin: 20px auto;
+   padding: 10px;
+   border: 5px solid black;
+  overflow: hidden;
+}
+
+.resultat{
+    background-color: #d9d9d9;
+    text-align:initial;
+    padding: 2px 80px;
+    margin: 2px 40px;
+    border: 6px double white;
+
+}
+
+
+.bottom {
+   position: absolute;
+   bottom: 0;
+   border: 1px dotted red;
+   min-height: 5rem;
+}
+
+
+h1 {
+   text-transform:capitalize;
+   font-size: 2.5em;
+   line-height:2.1em ;
+   font-variant: small-caps; 
+   text-align:center;
+   word-spacing: 5px;
+}
+
+h2 {
+   font-style: oblique;
+   font-weight: bold;
+   color: black;
+   text-align: center;
+   letter-spacing: 5px;
+   line-height: 1.8em;
+}
+ul{
+   list-style-position: inside;
+   list-style: disc;
+   font-variant:small-caps;
+   font-size: 1.2em;
+   line-height: 1.5em;
+}
+
+table{
+   width: 80%;
+   margin:20px auto ;
+   border-collapse:collapse;
+}
+td{
+   border-width: 1px;
+   border-style: solid;
+   border-color:black;
+   text-align: center;
+}
+
+th{
+   border-width:1px;
+   border-style:solid;
+   border-color:black;
+   text-align: center;
+}
+/* @page { size: A4 } */
+
+@media print {
+   section {
+      border : 1px solid black;
+      width : 8.26in;
+      height : 11.66in;
+      margin : 0;
+      /* change the margins as you want them to be. */
+      page-break-after: always;
+   }
+}
+

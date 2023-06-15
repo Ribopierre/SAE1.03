@@ -1,0 +1,26 @@
+#!/bin/bash
+
+mkdir pp
+
+# Boucle pour chaque fichier dans le dossier
+for file in avatar/*.svg; do
+
+  # Extraire le nom de fichier sans l'extension
+filename=$(basename "$file" .svg)
+
+  # Convertir l'image en PNG, la mettre en nuance de gris et la redimensionner à 200x200
+convert "$file" -colorspace gray -shave 45x45 -resize 200x200 "pp/$filename.png"
+
+  # Vérifier si la conversion a réussi
+done
+
+
+Le script définit d'abord le chemin du dossier où se trouvent les images SVG 
+Ensuite, on utilise une boucle for pour itérer à travers chaque fichier .svg dans le dossier
+Dans la boucle, on utilise la commande basename pour extraire le nom de fichier sans l'extension 
+Ensuite, on utilise la commande convert de ImageMagick pour convertir l'image en PNG, la mettre en nuance de gris et la redimensionner à 200x200 
+Il est important de noter que pour utiliser la commande convert, il faut installer Imagemagick sur votre machine. Il est également important de s'assurer que le script a les permissions d'exécution pour être lancé.
+
+
+
+

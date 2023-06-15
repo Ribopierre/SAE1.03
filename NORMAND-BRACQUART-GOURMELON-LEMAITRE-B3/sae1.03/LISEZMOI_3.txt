@@ -1,0 +1,4 @@
+(documentation du script bash qrcode)
+
+Pour pouvoir exécuter cette commande il faut avoir donné une valeur (ici un code ISO) à la variable iso, pour que le qr code qui soit créer renvoie vers la bonne branche du site factice.
+Cependant, dans notre situation, la valeur de la variable iso sera administrée dans script principal bash, qui se chargera de la faire évoluer pour avoir le lien qui convient au code iso. 
